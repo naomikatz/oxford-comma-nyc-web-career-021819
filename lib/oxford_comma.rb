@@ -6,7 +6,7 @@ def oxford_comma(array)
     string = ""
     third_element = array.pop
     string << array.join(", ") + ", and " + third_element
-  else array.length > 
+  else array.length >= 3
   string = ""
   string << array.join(", ")
   end
